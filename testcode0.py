@@ -10,3 +10,14 @@ def rescaleFrame(frame, scale):
     dimensions = (width,height)
 
     return cv.resize(frame, dimensions, interpolation=cv.INTER_AREA)
+
+
+resize = rescaleFrame(testimg, 0.25)
+
+canny = cv.Canny(resize, 150, 175)
+
+
+cv.imshow('image', canny)
+cv.waitKey(0)
+
+
