@@ -1,4 +1,4 @@
-Sounding tool kit is an automation tool for calculating fluid level of fuel oil and lube oil holding tanks.
+Sounding tool kit is an automation tool for calculating fluid volume of fuel oil and lube oil holding tanks via a sounding measure.
 
 Soundingtoolkit(STK) consists of two components:
 
